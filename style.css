@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f1f1f1; /* Background color for the page */
+}
+
+/* Header */
+
+body main header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+
+body main header a {
+  padding-left: 20px;
+  color: rgb(58, 53, 53);
+}
+
+section.navbar-menu a:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 4px solid #f9302f;
+  border-width: 0vmaxs;
+}
+
+a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #f9302f;
+  border-width: 0lvw;
+  color: #f9302f;
+}
+
+/* Main */
+main main {
+  display: flex;
+  padding-top: 30px;
+}
+/* Profile-Singkat */
+div.profile {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+div.profile h3 {
+  translate: 0 -5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+}
+div.profile img.pp {
+  width: 40%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+div.sosmed-section {
+  display: flex;
+  align-items: center;
+}
+div.profile a.btn {
+  margin-top: 5px;
+}
+div.profile img.sosmed {
+  width: 50px;
+  cursor: pointer;
+}
+div.profile img.love {
+  width: 80px;
+}
+img.sosmed {
+  transition: all 0.2s;
+}
+img.sosmed:hover {
+  translate: 0 -20px;
+}
+
+div.profile a.btn {
+  width: 30%;
+  background: #00c284;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border-radius: 100px;
+  box-shadow: -5px 5px 10px rgb(185, 185, 185);
+}
+/* About */
+div.about {
+  width: 50%;
+}
+div.about h1 {
+  width: max-content;
+  border-width: 10px;
+  border-bottom: 5px solid black;
+  border-radius: 5px;
+}
+
+div.mini-profile img {
+  translate: 30px 0;
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+div.content {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #272727;
+}
+
+.chatbox {
+  padding: 20px;
+  margin: 20px 0;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+div.content span.jam {
+  float: right;
+  font-size: 16px;
+}
+
+.reflection {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  transform: translate(-50%, -50%) rotateX(180deg);
+  pointer-events: none;
+  z-index: -1;
+}
