@@ -75,12 +75,6 @@ div.profile img.sosmed {
 div.profile img.love {
   width: 80px;
 }
-img.sosmed {
-  transition: all 0.2s;
-}
-img.sosmed:hover {
-  translate: 0 -20px;
-}
 
 div.profile a.btn {
   width: 30%;
@@ -95,12 +89,12 @@ div.profile a.btn {
 div.about {
   width: 50%;
 }
-div.about h1 {
+/* div.about h1:nth-child(1) {
   width: max-content;
   border-width: 10px;
   border-bottom: 5px solid black;
   border-radius: 5px;
-}
+} */
 
 div.mini-profile img {
   translate: 30px 0;

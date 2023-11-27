@@ -1,0 +1,40 @@
+.simple-chat {
+  max-width: 400px;
+  margin: auto;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.chat-bubble {
+  border-radius: 8px;
+  max-width: 70%;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.my-message {
+  background-color: #4caf50;
+  color: white;
+  align-self: flex-end;
+}
+
+.your-message {
+  background-color: #e0e0e0;
+  color: black;
+  align-self: flex-start;
+}
+
+.role-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.role-selector button {
+  padding: 5px;
+  cursor: pointer;
+}
